@@ -33,7 +33,7 @@ struct UserDetail {
 }*user;
 
 int main() {   
-    int choice;     // leave main function for last dont put effort now
+    int choice;  
     struct UserDetail user1;
     user = &user1;
     printf("\t\t--------------------------------------------------------------------------\n");
@@ -42,7 +42,7 @@ int main() {
     printf("\n Please enter your name \n");
     scanf("%s",&user->name);
     while(1) {
-        printf("OPTIONS TO CHOOSE\n");      // menu me choice vs option add add karde like 1. Facemakeup 2. eyemakeup
+        printf("OPTIONS TO CHOOSE\n");
         printf("1. Face Makeup\n"); 
         printf("2. Eye Makeup\n");
         printf("3. Lip Makeup\n");
@@ -77,7 +77,7 @@ void FaceMakeup() {
         printf("\t6. Contour\n");
         printf("7. Highlighter\t");
         printf("\t8. SettingSpray\n");
-        scanf("%d",&choice);                // menu me choice vs option add add karde like 1. Facemakeup 2. eyemakeup
+        scanf("%d",&choice);      
         switch (choice)
         {
         case 1 : Primer();
@@ -134,19 +134,19 @@ void Foundation() {
             printf("Redirecting to Face makeup menu\n\n"); 
             break;
         
-    case 2: printf("You can checkout :\n Maybelline fitme matte in 128 Warm Nude\n");
+    case 2: printf("\nYou can checkout :\n Maybelline fitme matte in 128 Warm Nude\n");
             printf("Redirecting to Face makeup menu\n\n");
             break;
 
-    case 3: printf("You can checkout :\n Maybelline fitme matte in 220 Natural Beige\n");
+    case 3: printf("\nYou can checkout :\n Maybelline fitme matte in 220 Natural Beige\n");
             printf("Redirecting to Face makeup menu\n");
             break;
 
-    case 4: printf("You can checkout :\n Maybelline fitme matte in 235 pure Beige\n");
+    case 4: printf("\nYou can checkout :\n Maybelline fitme matte in 235 pure Beige\n");
             printf("Redirecting to Face makeup menu\n");
             break;
 
-    case 5: printf("You can checkout :\n Maybelline fitme matte in 330 Toffee\n");
+    case 5: printf("\nYou can checkout :\n Maybelline fitme matte in 330 Toffee\n");
             printf("Redirecting to Face makeup menu\n");
             break;
 
@@ -194,23 +194,23 @@ void LoosePowder() {
     scanf("%d",&choice);
     switch (choice)
     {
-        case 1: printf("\n You can checkout :\nMaybelline New York Fit me Loose Finishing Powder 15 Light \n");
+        case 1: printf("\nYou can checkout :\nMaybelline New York Fit me Loose Finishing Powder 15 Light \n");
                 printf("Redirecting to Face makeup menu\n");
                 break;
 
-        case 2: printf("\n You can checkout :\nMaybelline New York Fit me Loose Finishing Powder 15 Light\n");
+        case 2: printf("\nYou can checkout :\nMaybelline New York Fit me Loose Finishing Powder 15 Light\n");
                 printf("Redirecting to Face makeup menu\n");
                 break;
 
-        case 3: printf("\n You can checkout :\nMaybelline New York Fit me Loose Finishing Powder 20 Light Medium\n");
+        case 3: printf("\nYou can checkout :\nMaybelline New York Fit me Loose Finishing Powder 20 Light Medium\n");
                 printf("Redirecting to Face makeup menu\n");
                 break;
 
-        case 4: printf("\n You can checkout :\nMaybelline New York Fit me Loose Finishing Powder 25 Medium\n");
+        case 4: printf("\nYou can checkout :\nMaybelline New York Fit me Loose Finishing Powder 25 Medium\n");
                 printf("Redirecting to Face makeup menu\n");    
                 break;
 
-        case 5: printf("\n You can checkout :\nMaybelline New York Fit me Loose Finishing Powder 30 Medium Deep\n");
+        case 5: printf("\nYou can checkout :\nMaybelline New York Fit me Loose Finishing Powder 30 Medium Deep\n");
                 printf("Redirecting to Face makeup menu\n");    
                 break;
         
@@ -269,15 +269,15 @@ void Blush() {
                 printf("Redirecting to Face makeup menu\n");
                 break;
 
-        case 3: printf("\n You can checkout :\n Maybelline New York Fit me Mono Blush - 40 Proud \n");
+        case 3: printf("\nYou can checkout :\n Maybelline New York Fit me Mono Blush - 40 Proud \n");
                 printf("Redirecting to Face makeup menu\n");
                 break;
 
-        case 4:  printf("\n You can checkout :\n Maybelline New York Fit me Mono Blush - 60 Passionate \n");
+        case 4:  printf("\nYou can checkout :\n Maybelline New York Fit me Mono Blush - 60 Passionate \n");
                  printf("Redirecting to Face makeup menu\n");
                  break;
 
-        case 5: printf("\n You can checkout :\n Maybelline New York Fit me Mono Blush - 20 Hopeful \n");
+        case 5: printf("\nYou can checkout :\n Maybelline New York Fit me Mono Blush - 20 Hopeful \n");
                 printf("Redirecting to Face makeup menu\n");
                 break;
 
@@ -299,23 +299,23 @@ void Contour() {
     scanf("%d",&choice);
     switch (choice)
     {
-        case 1: printf("\n We currently do not have Contour in singles but you can checkout our Pallete \n Maybelline New York Face Studio Master Contour Pallete in the shade - Light to Medium \n");
+        case 1: printf("\nWe currently do not have Contour in singles but you can checkout our Pallete \n Maybelline New York Face Studio Master Contour Pallete in the shade - Light to Medium \n");
                 printf("Redirecting to Face makeup menu\n");
                 break;
 
-        case 2: printf("\n We currently do not have Contour in singles but you can checkout our Pallete \n Maybelline New York Face Studio Master Contour Pallete in the shade - Light to Medium \n");  
+        case 2: printf("\nWe currently do not have Contour in singles but you can checkout our Pallete \n Maybelline New York Face Studio Master Contour Pallete in the shade - Light to Medium \n");  
                 printf("Redirecting to Face makeup menu\n");
                 break;
 
-        case 3: printf("\n We currently do not have Contour in singles but you can checkout our Pallete \n Maybelline New York Face Studio Master Contour Pallete in the shade - Light to Medium \n");  
+        case 3: printf("\nWe currently do not have Contour in singles but you can checkout our Pallete \n Maybelline New York Face Studio Master Contour Pallete in the shade - Light to Medium \n");  
                 printf("Redirecting to Face makeup menu\n");
                 break;
 
-        case 4: printf("\n We currently do not have Contour in singles but you can checkout our Pallete \n Maybelline New York Face Studio Master Contour Pallete in the shade -  Medium to Deep \n");  
+        case 4: printf("\nWe currently do not have Contour in singles but you can checkout our Pallete \n Maybelline New York Face Studio Master Contour Pallete in the shade -  Medium to Deep \n");  
                 printf("Redirecting to Face makeup menu\n");
                 break;
 
-        case 5: printf("\n We currently do not have Contour in singles but you can checkout our Pallete \n Maybelline New York Face Studio Master Contour Pallete in the shade -  Medium to Deep \n");
+        case 5: printf("\nWe currently do not have Contour in singles but you can checkout our Pallete \n Maybelline New York Face Studio Master Contour Pallete in the shade -  Medium to Deep \n");
                 printf("Redirecting to Face makeup menu\n");
                 break;
         
@@ -331,23 +331,23 @@ void Highlighter() {
     scanf("%d",&choice);
     switch (choice)
     {
-    case 1: printf("\n You can checkout :\n Maybelline New York Face Studio Master Chrome Metallic Highlighter - Molten Rose Gold \n"); 
+    case 1: printf("\nYou can checkout :\n Maybelline New York Face Studio Master Chrome Metallic Highlighter - Molten Rose Gold \n"); 
             printf("Redirecting to Face makeup menu\n");
             break;
 
-    case 2: printf("\n You can checkout :\n Maybelline New York Face Studio Master Chrome Metallic Highlighter - Molten Rose Gold \n");
+    case 2: printf("\nYou can checkout :\n Maybelline New York Face Studio Master Chrome Metallic Highlighter - Molten Rose Gold \n");
             printf("Redirecting to Face makeup menu\n");
             break;
 
-    case 3: printf("\n You can checkout :\n Maybelline New York Face Studio Master Chrome Metallic Highlighter - Molten Rose Gold \n");
+    case 3: printf("\nYou can checkout :\n Maybelline New York Face Studio Master Chrome Metallic Highlighter - Molten Rose Gold \n");
             printf("Redirecting to Face makeup menu\n");
             break;
 
-    case 4: printf("\n You can checkout :\n Maybelline New York Face Studio Master Chrome Metallic Highlighter - Molten Gold \n");
+    case 4: printf("\nYou can checkout :\n Maybelline New York Face Studio Master Chrome Metallic Highlighter - Molten Gold \n");
             printf("Redirecting to Face makeup menu\n");
             break;
 
-    case 5: printf("\n You can checkout :\n Maybelline New York Face Studio Master Chrome Metallic Highlighter - Molten Gold \n");
+    case 5: printf("\nYou can checkout :\n Maybelline New York Face Studio Master Chrome Metallic Highlighter - Molten Gold \n");
             printf("Redirecting to Face makeup menu\n");
             break;
     
@@ -363,7 +363,7 @@ void SettingSpray() {
     scanf("%d",&choice);
     switch (choice)
     {
-        case 1: printf("\n You can checkout :\nMaybelline New York Fit Me Matte + Poreless Setting Spray \nor\nMaybelline New York Facestudio Lasting Fix Makeup Setting Spray \n ");      // everything printf in this format
+        case 1: printf("\nYou can checkout :\nMaybelline New York Fit Me Matte + Poreless Setting Spray \nor\nMaybelline New York Facestudio Lasting Fix Makeup Setting Spray \n ");      // everything printf in this format
                 printf("Redirecting to Face makeup menu\n");
                 break;
 
@@ -381,7 +381,7 @@ void EyeMakeup()
 {
     int choice;
     while(1) {
-        printf("Heyy %s enter a category of eyemakeup \n1. eyeliner\t2. eyebrow definer\n3. mascara\t4. eyeshadow\n",user->name);              
+        printf("\nHeyy %s enter a category of eyemakeup \n1. eyeliner\t2. eyebrow definer\n3. mascara\t4. eyeshadow\n",user->name);              
         scanf("%d",&choice);
         switch (choice)
         {
